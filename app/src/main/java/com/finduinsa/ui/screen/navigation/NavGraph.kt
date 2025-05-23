@@ -18,7 +18,9 @@ fun AppNavGraph(navController: NavHostController) {
             RegisterScreen(navController)
         }
         composable(Screen.MainMenu.route) {
-            MainMenuScreen()
+            MainMenuScreen(navController)
         }
+
     }
 }
+
